@@ -12,3 +12,4 @@ admin.site.register(SignUp)
 admin.site.register(Teachers)
 admin.site.register(Testimonial)
 admin.site.register(OurBlog)
+

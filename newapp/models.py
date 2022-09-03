@@ -44,7 +44,7 @@ class Subjects(models.Model):
 
 class Courses(models.Model):
     time=models.IntegerField()
-    person= models.IntegerField(max_length=30)
+    person= models.IntegerField()
     title= models.TextField(max_length=100)
     image=models.ImageField(upload_to='media/Courses/')
     mark=models.IntegerField()

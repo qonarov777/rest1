@@ -14,7 +14,7 @@ from django.urls import path
 urlpatterns = [
     
     path('homepage-create/',CreateHomepage.as_view()),
-    path('  /',ListHomepage.as_view()),
+    path('homepage-list/',ListHomepage.as_view()),
     path('homepage-update/<int:pk>',UpdateHomepage.as_view()),
     path('homepage-delete/<int:pk>', DestroyHomepage.as_view()),
     path('homepage-retrieve/<int:pk>', RetrieveHomepage.as_view()),
